@@ -1,46 +1,149 @@
-# Getting Started with Create React App and Redux
+# Task Management Dashboard
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template.
+A modern, responsive task management application built with React and Material-UI.
 
-## Available Scripts
+![Task Management Dashboard](https://github.com/anurag-chandra9/Task_management/raw/main/screenshot.png)
 
-In the project directory, you can run:
+## Features
 
-### `npm start`
+- Modern, intuitive interface
+- Fully responsive design
+- Comprehensive task management
+- Advanced filtering and sorting
+- Task statistics dashboard
+- Beautiful Material-UI components
+- Redux state management
+- Fast and efficient
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Technologies Used
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- React
+- Redux Toolkit
+- Material-UI (MUI)
+- React Router
+- date-fns
+- Emotion (for styling)
 
-### `npm test`
+## Getting Started
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Prerequisites
 
-### `npm run build`
+- Node.js (v14 or higher)
+- npm or yarn
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Installation
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/anurag-chandra9/Task_management.git
+   ```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+2. Navigate to the project directory:
+   ```bash
+   cd task-management-dashboard
+   ```
 
-### `npm run eject`
+3. Install dependencies:
+   ```bash
+   npm install
+   # or
+   yarn install
+   ```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+4. Start the development server:
+   ```bash
+   npm start
+   # or
+   yarn start
+   ```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+5. Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Features in Detail
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### Task Management
+- Create new tasks with title, description, and due date
+- Edit existing tasks
+- Delete tasks with confirmation
+- Mark tasks as completed
+- View task details
 
-## Learn More
+### Filtering and Sorting
+- Filter tasks by:
+  - All Tasks
+  - Completed Tasks
+  - Pending Tasks
+  - Overdue Tasks
+  - Upcoming Tasks
+- Sort tasks by:
+  - Due Date
+  - Creation Date
+  - Title
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Dashboard Statistics
+- Total tasks count
+- Completed tasks
+- Pending tasks
+- Overdue tasks
+- Upcoming tasks
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### UI/UX Features
+- Responsive design for all screen sizes
+- Animated components
+- Modern gradient effects
+- Intuitive task status indicators
+- Clean and minimalist design
+
+## Project Structure
+
+```
+src/
+├── app/
+│   └── store.js
+├── components/
+│   ├── AddTaskForm/
+│   ├── EditTaskForm/
+│   ├── TaskDashboard/
+│   ├── TaskList/
+│   └── Footer/
+├── features/
+│   └── tasks/
+│       └── tasksSlice.js
+├── theme/
+│   └── theme.js
+└── App.js
+```
+
+## Deployment
+
+The application is deployed on Vercel. You can view the live version at:
+[Task Management Dashboard](https://task-management-dashboard-anurag.vercel.app)
+
+### Deployment Steps
+1. Push your changes to GitHub
+2. Vercel automatically deploys from the main branch
+3. View deployment logs in Vercel dashboard
+
+## Contributing
+
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Author
+
+**Anurag Chandra**
+- GitHub: [@anurag-chandra9](https://github.com/anurag-chandra9)
+- LinkedIn: [Anurag Chandra](https://www.linkedin.com/in/anurag-chandra9/)
+
+## Acknowledgments
+
+- Material-UI for the amazing component library
+- React team for the awesome framework
+- Redux team for state management solutions
